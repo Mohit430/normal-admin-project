@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/Cybrom Dashboard/css/insert.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav class="sidebar">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-codepen"></i>
+                            <div class="title">Mohit Jain</div>
+                            <div class="close" id="close_btnn">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-brands fa-codepen"></i>
+                            <div class="title">Dashboard</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="insert.html">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <div class="title">Add Employee</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="display.html">
+                            <i class="fa-sharp fa-solid fa-diamond"></i>
+                            <div class="title">Display Data</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="update.html">
+                            <i class="fa-solid fa-film"></i>
+                            <div class="title">Update Data</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-address-book"></i>
+                            <div class="title">Contact</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chart.html">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <div class="title">Chart</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="title">Settings</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="title">Login</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ragister.html">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="title">Signup</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="click" id="bar"><i class="fa-solid fa-bars"></i></label>
+
+            <main class="main">
+                <div class="top-bar">
+                    <div class="search">
+                        <input type="text" name="search"
+                            placeholder="Search here" aria-label="Search">
+                    </div>
+
+
+                </div>
+                <div class="form-container">
+                    <h2>Enter Details</h2>
+                    <label for="eno">Enter Employeeno.:</label>
+                    <input type="text" id="eno" />
+
+                    <label for="nm">Enter Name:</label>
+                    <input type="text" id="nm" />
+
+                    <label for="city">Enter City:</label>
+                    <input type="text" id="city" />
+
+                    <label for="salary">Enter Salary:</label>
+                    <input type="text" id="salary" />
+
+                    <button id="btn1">Data Save</button>
+                </div>
+            </div>
+        </div>
+        <script src="insert.js"></script>
+    </body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav class="sidebar">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-codepen"></i>
+                            <div class="title">Mohit Jain</div>
+                            <div class="close" id="close_btnn">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-brands fa-codepen"></i>
+                            <div class="title">Dashboard</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="insert.html">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <div class="title">Add Employee</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="display.html">
+                            <i class="fa-sharp fa-solid fa-diamond"></i>
+                            <div class="title">Display Data</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Update.html">
+                            <i class="fa-solid fa-film"></i>
+                            <div class="title">Update Data</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-address-book"></i>
+                            <div class="title">Contact</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chart.html">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <div class="title">Chart</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="title">Settings</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="title">Login</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ragister.html">
+                            <i class="fa-solid fa-gear"></i>
+                            <div class="title">Signup</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="click" id="bar"><i class="fa-solid fa-bars"></i></label>
+
+            <main class="main">
+                <div class="top-bar">
+                    <div class="search">
+                        <input type="text" name="search"
+                            placeholder="Search here" aria-label="Search">
+                    </div>
+                    <div class="user">
+                        <!-- <img src="/images/photo.jpg" alt> -->
+                    </div>
+
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number">$6k</div>
+                            <div class="card-name">Total Sales</div>
+                            <br>
+                            <div class="card-name">+10% From Yesterday</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa-brands fa-slack"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number">1000</div>
+                            <div class="card-name">Total Order</div>
+                            <br>
+                            <div class="card-name">+8% From Yesterday</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number">9</div>
+
+                            <div class="card-name">New Customer</div>
+                            <br>
+                            <div class="card-name">+3% From Yesterday</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa-solid fa-fire"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Table -->
+
+                <table>
+                    <caption style=" background: linear-gradient(
+        to top right,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.3)
+      );
+      backdrop-filter: blur(5px);font-size: 21px;">Employee Data</caption>
+                    <thead>
+                        <tr>
+                            <th>Employee ID</th>
+                            <th>Name</th>
+                            <th>City</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>101</td>
+                            <td>John Doe</td>
+                            <td>Bhopal</td>
+                            <td>$60,000</td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>Jane Smith</td>
+                            <td>Indore</td>
+                            <td>$55,000</td>
+                        </tr>
+                        <tr>
+                            <td>103</td>
+                            <td>Sam Brown</td>
+                            <td>Rajkot</td>
+                            <td>$50,000</td>
+                        </tr>
+                        <tr>
+                            <td>104</td>
+                            <td>Mary Johnson</td>
+                            <td>Gujrat</td>
+                            <td>$52,000</td>
+                        </tr>
+                        <tr>
+                            <td>104</td>
+                            <td>Mary Johnson</td>
+                            <td>Sagar</td>
+                            <td>$52,000</td>
+                        </tr>
+                        <tr>
+                            <td>104</td>
+                            <td>Mary Johnson</td>
+                            <td>Panna</td>
+                            <td>$52,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+
+        <script>
+            const sideMenu = document.querySelector(".sidebar");
+const menuBtn = document.querySelector("#bar");
+const closeBtn = document.querySelector(".close");
+menuBtn.addEventListener("click", () => {
+  sideMenu.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  sideMenu.style.display = "none";
+});
+        </script>
+    </body>
+</html>
